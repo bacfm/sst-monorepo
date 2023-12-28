@@ -8,9 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint --fix",
-    "test": "jest --coverage --verbose",
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "test": "jest --coverage --verbose"
   },
   "dependencies": {
     "@platform/web-components": "*",

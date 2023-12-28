@@ -16,7 +16,6 @@
         "**/*.spec.ts",
         "**/*.test.tsx",
         "**/*.spec.tsx",
-        "./src/testUtils/**/*",
-        "./cypress/**/*"
+        "./src/testUtils/**/*"
       ]
 }

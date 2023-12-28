@@ -15,19 +15,6 @@
                 "^build"
             ]
         },
-        "test": {
-            "dependsOn": [
-                "build",
-                "^test"
-            ]
-        },
-        "cypress:run": {
-            "dependsOn": ["build"]
-        },
-        "cypress:open": {
-            "persistent": true,
-            "dependsOn": ["build"]
-        },
         "clean": {
             "cache": false
         },
