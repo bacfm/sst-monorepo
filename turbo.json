@@ -20,6 +20,9 @@
         },
         "dev": {
             "persistent": true
+        },
+        "openbuild": {
+            "cache": false
         }
     }
 }
